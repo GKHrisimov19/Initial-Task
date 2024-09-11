@@ -10,16 +10,20 @@ body{
 
 .nav-table{
     border-collapse: collapse;
-    position: fixed;
+   
     display:inline;
-    
+   text-align: center;
     width: 100%;
+  
     
 }
+
 
 .second-nav{
     display: flex;
     align-items: center;
+    justify-content: center;
+   
 }
 
 nav{
@@ -32,7 +36,7 @@ nav{
 }
 .nav-td{
     padding: 0;
-    width: 33.3%;
+    width: 47%;
     vertical-align: top;
 }
 

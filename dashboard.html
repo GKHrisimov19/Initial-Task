@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.TBA">
     <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dashboardstyle.css">
+
     <link rel="shortcut icon" type="image/png" href="photos/icon.png">
 
 
@@ -15,8 +17,8 @@
     <table class="nav-table">
 
         <tr>
-            <td class="nav-td">
-                <nav style="display: flex; margin: 0;">
+            <td class="nav-td" style="width: 42%; border:none;">
+                <nav style="display: flex; margin: 0; height: 100%; justify-content: space-around;">
                     <a href="index.html">Home</a>
                     <a href="profile.html">Profile</a>
                     <a href="dashboard.html">Dashboard</a>
@@ -24,25 +26,178 @@
                     <a href="blog.html" style="margin: 0px;">Blog</a>
                 </nav>
             </td>
-            <td></td>
+            <td style="width: 5%; border:none;">
+                <img src="photos/hz-logo.png" alt="" style="width: 50px; height: 60px;">
+            </td>
 
-            <td class="nav-td">
+            <td class="nav-td" style="border:none;">
 
                 <nav class="second-nav">
-                    <a href="index.html" style="align-items: center;">HBO ICT</a>
-                    <a href="profile.html" style="align-items: center;">Implementation
-                        <br>
+                    <a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754" target="_blank"
+                        style="align-items: center;">HBO ICT</a>
+
+                    <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf"
+                        target="_blank" style="align-items: center;">
                         Regulations</a>
-                    <a href="dashboard.html">Learn
-                        <br>
-                        Environment</a>
-                    <a href="faq.html">My progress</a>
-                    <a href="blog.html">GitHub</a>
+                    <a href="https://learn.hz.nl/" target="_blan">Learn Environment</a>
+                    <a href="https://hz.osiris-student.nl/home" target="_blank">My progress</a>
+                    <a href="https://github.com/HZ-HBO-ICT" style="padding: 0px;">GitHub</a>
                 </nav>
             </td>
         </tr>
-    </table><br><br><br><br>
-    <h1>Dashboard</h1>
+    </table>
+
+    <br><br><br><br><br><br>
+
+    <div class="dashboard-div">
+
+        <h2 class="table-title">Year 1 Test Components</h2>
+        <table class="dashboard">
+
+            <tr>
+                <th>Quater</th>
+                <th>Course</th>
+                <th>ECs</th>
+                <th>Exam</th>
+                <th>Grade</th>
+            </tr>
+
+
+            <tr class="not-merged">
+                <td rowspan="3">1</td>
+                <td>Program- & Career Orientation</td>
+                <td>2,5</td>
+                <td>Presentation (Individual)</td>
+                <td>TBA</td>
+            </tr>
+            <tr class="not-merged">
+                <!---->
+                <td>Computer Science Basics</td>
+                <td>5</td>
+                <td>Written Knowledge Test</td>
+                <td>TBA</td>
+            </tr>
+            <tr class="not-merged">
+                <!---->
+                <td>Programming Basics</td>
+                <td>5</td>
+                <td>Written Knowledge Test</td>
+                <td>TBA</td>
+            </tr>
+
+
+            <tr class="not-merged">
+                <td rowspan="2">2</td>
+                <td rowspan="2">Object-Oriented Programming</td>
+                <td>5</td>
+                <td>Presentation (Individual)</td>
+                <td>TBA</td>
+            </tr>
+            <tr class="not-merged">
+                <!-- -->
+
+                <td>5</td>
+                <td>Written Knowledge Test</td>
+                <td>TBA</td>
+            </tr>
+
+
+            <tr class="not-merged">
+                <td rowspan="4">3</td>
+                <td rowspan="4">Framework Project 1</td>
+                <td>4</td>
+                <td>Written Knowledge Test</td>
+                <td>TBA</td>
+            </tr>
+            <tr class="not-merged">
+                <!-- -->
+
+                <td>1</td>
+                <td>Written Knowledge Test</td>
+                <td>TBA</td>
+            </tr>
+            <tr class="not-merged">
+                <!-- -->
+
+                <td>2.5</td>
+                <td>Presentation (Group)</td>
+                <td>TBA</td>
+            </tr>
+            <tr class="not-merged">
+                <!-- -->
+
+                <td>2.5</td>
+                <td>Portfolio</td>
+                <td>TBA</td>
+            </tr>
+
+
+            <tr class="not-merged">
+                <td rowspan="3">4</td>
+                <td rowspan="3">Framework Project 2</td>
+                <td>2.5</td>
+                <td>Presentation (Group)</td>
+                <td>TBA</td>
+            </tr>
+            <tr class="not-merged">
+                <!-- -->
+
+                <td>2.5</td>
+                <td rowspan="2">Portfolio</td>
+                <td>TBA</td>
+            </tr>
+            <tr class="not-merged">
+                <!-- -->
+
+                <td>5</td>
+                <!-- -->
+                <td>TBA</td>
+            </tr>
+
+
+            <tr class="not-merged">
+                <td>3-4</td>
+                <td>Business IT Consultancy Basics</td>
+                <td>2,5</td>
+                <td>Assignment (Individual)</td>
+                <td>TBA</td>
+            </tr>
+
+            <tr class="not-merged">
+                <td>1-4</td>
+                <td>Personal Professional Development Exploration</td>
+                <td>12,5</td>
+                <td>Criterion-Referenced Assessment</td>
+                <td>TBA</td>
+            </tr>
+
+            <tr class="not-merged">
+                <td rowspan="2">2-4</td>
+                <td>IT Personality 1</td>
+                <td>1,25</td>
+                <td>Portfolio</td>
+                <td>TBA</td>
+            </tr>
+            <tr class="not-merged">
+                <!-- -->
+                <td>IT Personality 2</td>
+                <td>1,25</td>
+                <td>Portfolio</td>
+                <td>TBA</td>
+            </tr>
+        </table>
+
+        <div class="progress-div">
+            <div class="di">
+                Progress Overview 0/60ECs
+            </div>
+            <div class="di">
+                NBSA boundary: 45 ECs
+            </div>
+
+        </div>
+
+    </div>
 </body>
 
 </html>

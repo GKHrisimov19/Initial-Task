@@ -1,0 +1,60 @@
+.dashboard-div{
+ 
+
+}
+
+table.dashboard{
+    width: 100%;
+    font-size: 20px;
+    
+}
+
+table.dashboard, td{
+    
+    border: 2px solid rgb(65, 48, 143);
+    border-collapse: collapse;
+    border-left: 3px solid rgb(65, 48, 143);
+}
+td{
+    padding: 5px;
+}
+
+th{
+    border: 3px solid rgb(65, 48, 143);
+    background-color: rgb(138, 191, 218);
+    color: black;
+}
+
+.not-merged{
+    background-color: rgb(218, 236, 248);
+}
+
+.merged{
+    background-color: rgb(143, 167, 255);
+}
+
+.table-title{
+    
+    border: 2px solid rgb(65, 48, 143);
+    border-bottom: 0px;
+    width: fit-content;
+    padding: 5px;
+    margin-bottom: 0px;
+    background-color: rgb(138, 191, 218);
+    
+}
+
+.progress-div{
+    display: flex;
+    width: 100%;
+    background-color: rgb(138, 191, 218);
+    border: 3px solid rgb(65, 48, 143);
+    border-top: none;
+    font-size: 20px;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.di{
+   margin: 10px;
+}
