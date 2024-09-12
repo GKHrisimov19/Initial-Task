@@ -2,10 +2,15 @@
     background-color: rgb(107, 215, 240);
     margin: auto;
     width: 90%;
+    padding: 10px;
     
 }
 
 .childDiv{
     text-align: center;
     font-size: 24px;
+}
+
+.question{
+font-weight: bold;
 }
