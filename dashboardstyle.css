@@ -27,9 +27,7 @@ th{
     background-color: rgb(218, 236, 248);
 }
 
-.merged{
-    background-color: rgb(143, 167, 255);
-}
+
 
 .table-title{
     
@@ -44,7 +42,6 @@ th{
 
 .progress-div{
     display: flex;
-    width: 100%;
     background-color: rgb(138, 191, 218);
     border: 3px solid rgb(65, 48, 143);
     border-top: none;
