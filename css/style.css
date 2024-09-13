@@ -101,4 +101,9 @@ li{
     font-size: 18px;
 }
 
+.photos{
+    justify-content: space-around;
+    display: flex;
+}
+
 
